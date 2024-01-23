@@ -1,0 +1,235 @@
+@media only screen and (max-width: 767px) {
+    .content .links ul {
+        position: absolute;
+        background: rgba(25, 26, 28, 0.9);
+        top: 80px;
+        z-index: -1;
+        visibility: hidden;
+    }
+  .slider .carousel-item .carousel-caption {
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: 10%;
+  }
+  .slider .carousel-item .carousel-caption .title {
+    font-size: 50px;
+  }
+  .tour .top_area {
+    flex-direction: column;
+  }
+  .tour .top_area .custom_btn a {
+    padding: 8px 20px;
+  }
+  .tour .content .card {
+    margin: 10px 0;
+  }
+  .destination .work-list1 {
+    grid-template-columns: 1fr;
+  }
+  .destination .work-list2 {
+    grid-template-columns: 1fr;
+  }
+  .top_destination .owl-nav {
+    display: block;
+  }
+  .top_destination .owl-prev {
+    left: 15rem;
+    top: 7rem;
+  }
+  .top_destination .owl-next {
+    left: 18rem;
+    top: 7rem;
+  }
+  .post .content .card {
+    margin: 10px 0;
+  }
+  footer .social_icon {
+    text-align: center;
+  }
+  footer a.social_logo {
+    display: inline;
+    margin: 0 1rem;
+    padding: 0.5rem;
+  }
+  footer .col-md-3 {
+    text-align: center;
+  }
+  footer .col-md-5 {
+    padding-top: 20px;
+    text-align: center;
+  }
+  footer .col-md-4 {
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  /* Blog */
+  .blog_section .blog_footer .blog_link {
+    order: 3;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  /* Package */
+  .package_area .tour-package-details .pd-header .header-bottom .pd-lavel .location {
+    font-size: 16px;
+  }
+  .package_area .tour-package-details .pd-header .header-bottom .pd-lavel .rating li i {
+    font-size: 16px;
+  }
+  .package_area .tour-package-details .pd-header .header-bottom .pd-title {
+    font-size: 25px;
+  }
+  .package_area .tour-package-details .package-details-tabs .tab-switchers .nav-item .nav-link {
+    padding: 5px 15px;
+    font-size: 15px;
+  }
+  .package_area .tour-package-details .package-info-tab .package-info-table tr th, .tour-package-details .package-info-tab .package-info-table tr td {
+    font-size: 13px;
+    padding: 20px 10px 20px 20px;
+  }
+
+  .package_area .tour-package-details .package-plan-tab .plans-accordion .plans-accordion-single .accordion-button .plan-title h5 {
+    font-size: 15px;
+  }
+  .package_area .tour-package-details .package-plan-tab .plans-accordion .plans-accordion-single .accordion-button .paln-index-circle {
+    width: 55px;
+    height: 55px;
+  }
+  .package_area .tour-package-details .package-plan-tab .plans-accordion .plans-accordion-single .accordion-button .plan-title {
+    padding: 5px 0;
+  }
+  .package_area .tour-package-details .package-plan-tab .plans-accordion .plans-accordion-single .accordion-button .plan-title h6 {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    .wrapper nav {
+        height: 80px;
+    }
+    nav .content {
+        margin: auto;
+        width: 50%;
+    }
+    .slider .carousel-item .carousel-caption {
+        width: 80%;
+        left: 2rem;
+        right: 2rem;
+        bottom: 10rem;
+    }
+    .slider .carousel-item .carousel-caption .desc {
+        font-size: 18px;
+    }
+    .destination .work-list1 .work:nth-child(1){
+        grid-column: 1 / span 3;
+        grid-row: 1;
+    }
+    .destination .work-list1 .work:nth-child(2){
+        grid-column: 1 / span 1;
+        grid-row: 2;
+    }
+    .destination .work-list1 .work:nth-child(3){
+        grid-column: 2 / span 2;
+        grid-row: 2;
+    }
+    .destination .work-list2 .work:nth-child(1){
+        grid-column: 1 / span 2;
+        grid-row: 1;
+    }
+    .destination .work-list2 .work:nth-child(2){
+        grid-column: 1 / span;
+        grid-row: 1;
+    }
+    .destination .work-list2 .work:nth-child(3){
+        grid-column: 1 / span 3;
+        grid-row: 2;
+    }
+    .top_destination .owl-nav {
+        display: block;
+      }
+      .top_destination .owl-prev {
+        left: 35rem;
+        top: 7rem;
+      }
+      .top_destination .owl-next {
+        left: 40rem;
+        top: 7rem;
+      }
+      .post .content .image_area {
+        height: 150px;
+      }
+      .post .content .card img {
+        height: 150px;
+      }
+      footer a.social_logo {
+        display: inline;
+        margin: 0 0.2rem;
+    }
+    footer a {
+        padding: 5px;
+        text-decoration: none;
+        color: #fff;
+        background: #ff4838;
+        margin: 0;
+    }
+    footer .other_links{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* blog */
+    .blog_section .blog_footer .blog_link {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+    .top_destination .owl-prev {
+        left: -42px;
+    }
+    .top_destination .owl-next {
+        right: -43px;
+    }
+    footer .col-md-3{
+        width: 30%;
+    }
+    footer .col-md-5{
+        width: 45%;
+    }
+    footer .col-md-4{
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    nav .content {
+        width: 90%;
+        margin: auto;
+    }
+    .content .links li a, .content .links li label {
+        padding: 10px 12px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    nav .content {
+        margin: auto;
+        width: 85%;
+}
+}
+
+
+@media only screen and (max-width: 1200px){
+.content .links ul {
+    position: absolute;
+    background: #fff;
+    color: #000;
+    top: 15rem !important;
+    z-index: 999;
+    visibility: hidden;
+    left: 8rem;
+}
+}
